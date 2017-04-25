@@ -12,7 +12,7 @@ public class RomanToArabicNumTest {
 
     @Test
     public void shouldReturnArabicNumber(){
-        int expected=10;
+        int expected=0;
         int arabicNum=underTest.romanToArabicNumber("X");
         Assert.assertEquals(expected,arabicNum);
 
